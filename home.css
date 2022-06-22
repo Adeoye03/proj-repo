@@ -1,0 +1,185 @@
+a{
+    text-decoration: none;
+}
+.header{
+    display: block;
+}
+.container-custom{
+    width: 1120px;
+    display: block;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.row-custom{
+    display: block;
+}
+.logo-wrap{
+    float: left;
+}
+.nav-custom{
+    text-align: center;
+    padding-top: 25px;
+    float: right;
+}
+.nav-itemwrap{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.nav-item{
+    display: inline;
+    margin-right: 10px;
+}
+.nav-link{
+    color: black;
+}
+.hero-banner{
+    background-color:unset;
+    padding-top: 40px;
+    width: auto;
+}
+.hero-wrap{
+    padding: 10px 0px;
+}
+.hero-title{
+    font-size: 40px;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0px;
+}
+.hero-caption{
+    font-size: 18px;
+}
+.hero-cta{
+    float: left;
+    background-color: palevioletred;
+    border-style: none;
+    border-radius: 12px;
+    width: 150px;
+    padding: 12px;
+    text-align: center;
+       
+}
+.btn-cta{
+    color: black;
+    
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+.col-8{
+    width: 66.66%;
+    float: left
+}
+.hero-img{
+    text-align: right;
+}
+.hero-img img{
+    width: fit-content;
+    
+}
+.hero-container{
+    background-color:unset;
+    padding-top: 40px;
+    width: auto;
+}
+.col-12{
+    width: 33.33%;
+    float: right;
+}
+.col-10{
+    width: 66.66%;
+    float: left;
+}
+.btn-1{
+    float: left;
+    background-color: palevioletred;
+    border-style: none;
+    border-radius: 12px;
+    width: 150px;
+    padding: 12px;
+    text-align: center;
+}
+.hero-wrapper{
+    padding: 10px 0px;
+}
+.hero-h2{
+    font-size: 40px;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0px;
+}
+.hero-text{
+    font-size: 18px;
+}
+.link-1{
+    color: black;
+}
+.f-h1{
+    text-align: left;
+}
+.menu-btn{
+    float: left;
+    padding: 20px 0;
+}
+.m-btn{
+    width: fit-content;
+    padding: 10px 25px;
+    border-style: none;
+}
+.full-btn{
+    float: right;
+    padding: 20px 0;
+}
+.active{
+    background-color: palevioletred;
+}
+a .active{
+    color: white;
+}
+.m-link{
+    color: black;
+}
+.si-btn{
+    padding: 10px 25px;
+    background-color: palevioletred;
+    border-style: none;
+}
+.si-link{
+    color: black;
+}
+.col-xs-3{
+    width: 25%;
+    float: left;
+    position: relative;
+    
+}
+.col-xs-6{
+    width: 100%;
+    display: inline-block;
+}
+.row{
+    padding: 10px;
+}
+.img-col{
+    width: 90%;
+    height: 150px;
+}
+.img-btn{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    width: 80%;
+    height: 70px;
+    opacity: 0.8;
+}
+
+
+
