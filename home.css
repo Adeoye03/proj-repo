@@ -180,6 +180,15 @@ a .active{
     height: 70px;
     opacity: 0.8;
 }
+.col-div{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.row-div{
+    padding-top: 10px;
+}
+
 
 
 
