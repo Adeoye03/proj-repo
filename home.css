@@ -1,6 +1,9 @@
 a{
     text-decoration: none;
 }
+img{
+    max-width: 100%;
+}
 .header{
     display: block;
 }
@@ -187,6 +190,34 @@ a .active{
 }
 .row-div{
     padding-top: 10px;
+}
+.col-foot{
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+.foot-div{
+    padding: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+ul li{
+    list-style-type: none;
+    text-align:center;
+}
+.sub-div{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.m-heading{
+    text-align: center;
+    padding: 10px;
+}
+.m-body{
+    background-color: lightpink;
 }
 
 
