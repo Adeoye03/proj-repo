@@ -200,8 +200,9 @@ a .active{
     padding: 10px;
 }
 .footer{
-    background-color: black;
-    color: white;
+    background-color: pink;
+    color: black;
+    padding: 10px;
 }
 ul li{
     list-style-type: none;
@@ -218,6 +219,53 @@ ul li{
 }
 .m-body{
     background-color: lightpink;
+    background-image: url(images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.last-div{
+    text-align: center;
+    background-color: pink;
+}
+.h2{
+    text-align: center;
+}
+.book-div{
+    float: right;
+    width: 33.33%;
+    background-color: palevioletred;
+    opacity: 0.9;
+}
+.bn-div{
+    text-align: center;
+    padding: 10px;
+}
+.bn-link{
+    color: black;
+    padding: 15px;
+}
+.bn-btn{
+    background-color: white;
+    border-style: none;
+    padding: 17px;
+}
+.in-div{
+    padding: 10px;
+}
+label{
+    padding: 10px;
+}
+.hea-2{
+    text-align: center;
+    color: white;
+}
+.hero-book{
+    background-image: url(images/goldie-ft-blog1117.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1120px;
+    display: block;
+    margin: 0px auto;
 }
 
 
