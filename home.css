@@ -208,21 +208,6 @@ ul li{
     list-style-type: none;
     text-align:center;
 }
-.sub-div{
-    width: 50%;
-    float: left;
-    text-align: center;
-}
-.m-heading{
-    text-align: center;
-    padding: 10px;
-}
-.m-body{
-    background-color: lightpink;
-    background-image: url(images/pngtree-restaurant-set-menu-background-material-image_158473.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .last-div{
     text-align: center;
     background-color: pink;
@@ -230,11 +215,8 @@ ul li{
 .h2{
     text-align: center;
 }
-.book-div{
-    float: right;
-    width: 33.33%;
-    background-color: palevioletred;
-    opacity: 0.9;
+.book-div p{
+    text-align: center;
 }
 .bn-div{
     text-align: center;
@@ -245,15 +227,9 @@ ul li{
     padding: 15px;
 }
 .bn-btn{
-    background-color: white;
+    background-color: palevioletred;
     border-style: none;
     padding: 17px;
-}
-.in-div{
-    padding: 10px;
-}
-label{
-    padding: 10px;
 }
 .hea-2{
     text-align: center;
