@@ -249,6 +249,9 @@ ul li{
 .sec-div{
     text-align: center;
 }
+.active, a.active{
+    color: red;
+}
 
 
 
