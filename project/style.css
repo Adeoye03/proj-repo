@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:" Roboto",sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background:url(trinh-minh-th-FaJb5Cygyvw-unsplash.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position:center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+ h2{
+    color: green;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+p{
+    color: rgb(47, 255, 68);
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+.contact-info{
+    color:green;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size:18px;
+}
+
+.contact-info i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.contact-form{
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.contact-info,.contact-form{
+ flex: 1;
+}
+
+.contact-form .text-box{
+    background:greenyellow;
+    color: black;
+    border: none;
+    width: calc(50%-10px);
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow:0 1px 1px rgba(221, 244, 45, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+
+.contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+
+
+.contact-form  textarea{
+    background: greenyellow;
+    color:black;
+    border:  none;
+    width: 65%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 100px;
+    max-height: 200px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: rgba(242, 245, 65, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.contact-form .send-btn{
+    background:#026112 ;
+    color: azure;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;  
+}
+
+.contact-form .send-btn:hover{
+    background:#0dde30 ;
+}
+
+@media screen and(max-width:950px) {
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-info, .contact-form{
+        margin: 30px 50px;
+    }
+
+    .contact-form h2{
+        font-size: 30px;
+    }
+
+    .contact-form .text-box{
+        width:100%;
+    }
+}
+
+
+
