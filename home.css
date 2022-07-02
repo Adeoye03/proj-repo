@@ -249,8 +249,8 @@ ul li{
 .sec-div{
     text-align: center;
 }
-.active, a.active{
-    color: red;
+#premier-topnav .active{
+    color: brown;
 }
 
 
