@@ -249,8 +249,9 @@ ul li{
 .sec-div{
     text-align: center;
 }
-#premier-topnav .active{
-    color: brown;
+.active, .nav-item:hover{
+    background-color: #666;
+    color: white;
 }
 
 

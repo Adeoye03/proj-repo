@@ -1,10 +1,14 @@
-function setActive() {
-    linkObj = document.getElementById('premier-topnav').getElementsByTagName('a');
-    for(i=0;i<linkObj.length;i++){
-        if (document.location.pathname === linkObj[i].getAttribute('href')>=0) {
-          linkObj[i].classList.add("active")
-        }
+
+var navContainer = document.getElementById("premier-topnav");
+var nav = navContainer.getElementsByClassName("nav-item");
+for (var i = 0; i < nav.length; i++) {
+  nav[i].addEventListener("click", function () {
+    var current = document.getElementsByClassName("active");
+    if (current.length > 0) {
+      current[0].className = current[0].className.replace("active", "");
     }
-        
-    }
-    window.onload = setActive;
+    this.className += "active";
+    
+  });
+  
+}
