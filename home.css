@@ -4,7 +4,7 @@ a{
 img{
     max-width: 100%;
 }
-.header{
+.heading{
     display: block;
 }
 .container-custom{
@@ -249,10 +249,14 @@ ul li{
 .sec-div{
     text-align: center;
 }
-.active, .nav-item:hover{
-    background-color: #666;
-    color: white;
+.nav-link:hover{
+    color: palevioletred;
 }
+@media  screen and (max-width: 600px) {
+    .nav-custom a:not(:first-child) {display: none;}
+}
+    
+
 
 
 
