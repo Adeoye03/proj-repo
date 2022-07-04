@@ -2,20 +2,18 @@
 
 
 *{
-    margin:0;
-    padding: 0;
     box-sizing: border-box;
     font-family:" Roboto",sans-serif;
 }
 
-body{
+.c-body{
     min-height: 100vh;
     background:url(images/trinh-minh-th-FaJb5Cygyvw-unsplash.jpg);
     background-size: cover;
-    background-attachment:fixed;
     background-position:center;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
 }
 a{
     text-decoration: none;
@@ -49,7 +47,7 @@ a{
     margin-right: 10px;
 }
 .nav-link{
-    color: white;
+    color:black;
 }
 
 .contact-section{
@@ -163,6 +161,26 @@ p{
     .contact-form .text-box{
         width:100%;
     }
+}
+.col-foot{
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+.foot-div{
+    padding: 10px;
+}
+.footer{
+    background-color: pink;
+    color: black;
+    padding: 10px;
+}
+.last-div{
+    text-align: center;
+    background-color: pink;
+}
+.foot-li, a{
+    color: black;
 }
 
 
