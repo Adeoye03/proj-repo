@@ -79,3 +79,23 @@ hr{
         right: 0;
     }
 }
+.btn-div{
+    float: right;
+    padding-top: 37px;
+    padding-right: 25px;
+}
+.btn-1{
+    padding: 10px;
+    border-style: none;
+    background-color: #DA7190;
+    border-radius: 15px;
+    width: 140px;
+}
+.btn-link{
+    color: black;
+}
+.btn-1:hover{
+    background-color: #f3f3f2;
+    border-style: solid;
+    border-color: #DA7190;
+}
