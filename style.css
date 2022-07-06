@@ -49,6 +49,9 @@ a{
 .nav-link{
     color:black;
 }
+.nav-link:hover{
+    color: palevioletred;
+}
 
 .contact-section{
     width: 100%;

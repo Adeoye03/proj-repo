@@ -1,62 +1,209 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reservations</title>
-    <link rel="stylesheet" href="style3.css">
-    <!----font-->
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 </head>
 <body>
-<section class="banner">
-    <h2>BOOK YOUR TABLE NOW</h2>
-    <div class="card-container">
-        <div class="card-img">
-
+    <section class="heading">
+        <div class="container-custom">
+            <div class="row-custom">
+                <div class="logo-wrap">
+                    <img src="images/food.jpg" width="100px" height="auto">
+                </div>
+                <nav class="navbar">
+                    <div class="nav-custom" id="premier-topnav">
+                        <ul class="nav-itemwrap me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="reservation.html">Reserve</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
-
-        <div class="card-content">
-            <h3>Reservation</h3>
-            <form>
-                <div class="form-row">
-                    <select name="days">
-                        <option value="day-select">Select day</option>
-                        <option value="Sunday">Sunday</option>
-                        <option value="Monday">Monday</option>
-                        <option value="Tueday">Tuesday</option>
-                        <option value="Wednesday">Wednesday</option>
-                        <option value="Thursday">Thursday</option>
-                        <option value="Friday">Friday</option>
-                        <option value="Saturday">Saturday</option>
-                    </select>
-
-
-                    <select name="hours">
-                        <option value="hour-select">Select hour</option>
-                      <option value="10">10:00
-                      </option>  
-                      <option value="10">12:00</option>  
-                      <option value="10">14:00</option>  
-                      <option value="10">16:00</option>  
-                      <option value="10">18:00</option>  
-                      <option value="10">20:00</option>  
-                      <option value="10">22:00</option>  
-                    </select>
+    </section>
+    <section class="hero-banner">
+        <div class="container-custom">
+            <div class="row">
+                <div class="col-4">
+                    <div class="hero-wrap">
+                    <h3 class="hero-title">Taste Our Delicious Foods</h3>
+                    <p class="hero-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam natus dignissimos culpa officia, <br>  repudiandae vitae inventore, nobis ipsum sed voluptas architecto qui soluta quaerat asperiores, libero esse ullam veniam neque?</p>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="menu.html" class="btn-cta">See Menu</a>
+                    </div>
                 </div>
-                
-                <div class="form-row">
-                    <input type="text" placeholder="Full Name">
-                    <input type="text" placeholder="Phone Number">
+                <div class="col-8">
+                    <div class="hero-img">
+                        <img src="images/istockphoto-1190330112-612x612.jpg" width="500px">
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="form-row">
-                    <input type="number" placeholder="How Many Persons?" min="1">
-                    <input type="submit" value="Reserve Now"> 
+    <section class="hero-container">
+        <div class="container-custom">
+            <div class="row-container">
+                <div class="col-10">
+                    <div class="img-div">
+                        <img src="images/berliner-17811__340.jpg" width="500px" alt="Donuts">
+                    </div>
                 </div>
-            </form>
+                <div class="col-12">
+                    <div class="hero-wrapper">
+                        <h2 class="hero-h2">Enjoy Sweet and Healthy Desserts </h2>
+                        <p class="hero-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, recusandae consectetur consequuntur blanditiis, ipsum accusantium aliquam sunt officiis eius mollitia a suscipit exercitationem eum porro voluptate, sit ullam repudiandae dolor.</p>
+                    </div>
+                    <div class="hero-btn">
+                        <button class="btn-1"><a class="link-1" href="menu.html#dessert">SEE DESSERTS</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-section">
+        <div class="container-custom">
+            <div class="menu-div">
+                <h1 class="f-h1">Explore Our Menu</h1>
+                <div class="menu-btn">
+                    <button class="m-btn active"><a class="m-link active" href="menu.html#breakfast">Breakfast</a></button>
+                    <button class="m-btn"><a class="m-link" href="menu.html#lunch" >Lunch</a></button>
+                    <button class="m-btn"><a class="m-link" href="menu.html#dinner">Dinner</a></button>
+                    <button class="m-btn"><a class="m-link" href="menu.html#drink">Drinks</a></button>
+                    <button class="m-btn"><a class="m-link" href="menu.html#dessert">Desserts</a></button>
+                </div>
+                <div class="full-btn">
+                    <button class="si-btn"><a class="si-link" href="Menu.html">VIEW ALL</a></button>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <img class="img-col" src="images/breakfast-1804457__340.webp">
+                                <button class="img-btn">Pancake and syrup</button>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-col" src="images/hors-doeuvre-2175326__340.jpg">
+                                <button class="img-btn">Hors-doeuvre</button>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-col" src="images/cake-1971552__340.webp" >
+                                <button class="img-btn">Chocolate cream and Red velvet cake </button>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-col" src="images/salmon-518032__340.webp">
+                                <button class="img-btn">Salmon</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <img class="img-col" src="images/istockphoto-1165063882-612x612.jpg">
+                                <button class="img-btn">Pasta and Rice</button>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-col" src="images/istockphoto-1175505781-612x612.jpg">
+                                <button class="img-btn">6</button>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-col" src="images/pasta-3547078__480.jpg">
+                                <button class="img-btn">Mac and cheese</button>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-col" src="images/blueberries-3946230__340.jpg">
+                                <button class="img-btn">Chocolate Blueerry cake</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero-book">
+        <div class="container-custom">
+            <div >
+                <div class="pic-div">
+                    <div class="book-div">
+                      <h2 class="hea-2">Great Food Great Vibes</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laboriosam, corporis velit aliquam at tenetur quam nulla harum, quas commodi, laudantium officia eaque nobis beatae quo nostrum aliquid odio repellendus.</p>
+                       <div class="bn-div">
+                        <button type="button" class="bn-btn"><a class="bn-link" href="reservation.html">Reserve A Table</a></button>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-custom">
+        <div class="row-div">
+            <h2 class="h2">Why Choose Us</h2>
+           <div class="col-div">
+               <h3>Fresh Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quo consequuntur beatae nobis distinctio fugiat earum. Nemo eveniet commodi distinctio consequatur deserunt dolor omnis aliquam, necessitatibus quas doloribus et obcaecati.</p>
+           </div>
+           
+           <div class="col-div">
+               <h3>Sweet Desserts</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officiis dignissimos quae, doloremque id illum ipsum minus similique delectus amet rem esse adipisci fugiat laborum iure magnam assumenda. Nostrum, quae!</p>
+           </div>
+
+           <div class="col-div">
+              <h3>Best Offers</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, incidunt maxime saepe optio possimus sunt qui a quisquam neque ipsam quod blanditiis explicabo fugit. Delectus consequuntur accusamus architecto non corrupti!</p>
+           </div>
         </div>
     </div>
 
-</section>
+    <section class="footer">
+        <div class="container-custom">
+            <div class="foot-div">
+                <div class="col-foot">
+                    <h3>Pages</h3>
+                    <div class="foot-li"><a href="index.html">Home</a></div>
+                    <div class="foot-li"><a href="menu.html">Menu</a></div>
+                    <div class="foot-li"><a href="reservation.html">Reserve</a></div>
+                    <div class="foot-li"><a href="contact.html">Contact</a></div>
+                </div>
+                <div class="col-foot">
+                    <h3>Our Menu</h3>
+                    <div class="foot-li"><a href="menu.html#breakfast">Breakfast</a></div>
+                    <div class="foot-li"><a href="menu.html#lunch">Lunch</a></div>
+                    <div class="foot-li"><a href="menu.html#dinner">Dinner</a></div>
+                    <div class="foot-li"><a href="menu.html#drink">Drinks</a></div>
+                    <div class="foot-li"><a href="menu.html#dessert">Desserts</a></div>
+                </div>
+                <div class="col-foot">
+                    <h3>Contact Us</h3>
+                    <div><i class="fas fa-map-marker-alt"></i>Address,City,Country</div>
+                    <div><i class="fas fa-envelope"></i>contact@email.com</div>
+                    <div><i class="fas fa-phone"></i>+000 0000 0000</div>
+                    <div><i class="fas fa-clock"></i>Mon - Fri 8:00AM to 5:00PM</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="last-div">
+        <div class="container-custom">
+            <footer>
+                <p>copyright@Team2 2022</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
 </body>
 </html>

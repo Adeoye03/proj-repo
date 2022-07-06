@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
 body{
     font-family:sans-serif;
@@ -12,7 +16,7 @@ body{
 .banner{
     min-height:100vh;
     background-color: #0000;
-    background-image: url("reserve-img.jpg");
+    background-image: url("images/reserve-img.jpg");
     background-repeat: no-repeat;
     background-position: center;
     display:flex;
@@ -29,7 +33,7 @@ body{
 }
 
 .card-img{
-    background: url("reserve-img.jpg") center/cover no-repeat;
+    background: url("images/reserve-img.jpg") center/cover no-repeat;
 
 }
 .banner h2{
@@ -75,13 +79,65 @@ form input::placeholder, select{
 }
 form input[type = submit]{
     color: #fff;
-    background: #f2745f;
+    background: palevioletred;
     padding: 12px 0;
     border-radius: 4px;
     cursor: pointer;
 } 
 form input[type = submit]::hover{
     opacity:0.9;
+}
+.heading{
+    display: block;
+}
+.container-custom{
+    width: 1120px;
+    display: block;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.row-custom{
+    display: block;
+}
+.logo-wrap{
+    float: left;
+}
+.nav-custom{
+    text-align: center;
+    padding-top: 25px;
+    float: right;
+}
+.nav-itemwrap{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+.nav-item{
+    display: inline;
+    margin-right: 10px;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: palevioletred;
+}
+.col-foot{
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+.foot-div{
+    padding: 10px;
+}
+.footer{
+    background-color: pink;
+    color: black;
+    padding: 10px;
+}
+.last-div{
+    text-align: center;
+    background-color: pink;
 }
 @media(max-width:992px){
     .card-container{
