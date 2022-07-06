@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:sans-serif;
+
+}
+
+.banner{
+    min-height:100vh;
+    background-color: #0000;
+    background-image: url("reserve-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:#000;
+    padding-bottom: 20px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns:400px 400px;
+}
+
+.card-img{
+    background: url("reserve-img.jpg") center/cover no-repeat;
+
+}
+.banner h2{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+
+}
+.card-content{
+    background: #fff;
+    height: 250px;
+
+}
+
+.card-content h3{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+.form-row{
+display: flex;
+width: 90%;
+margin: 0 auto;
+}
+
+form select, form input{
+    display: block;
+    width: 350px;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-weight: 300;
+
+}
+form input[type = text], form input[type = number], 
+form input::placeholder, select{
+    color: #000;
+}
+form input[type = submit]{
+    color: #fff;
+    background: #f2745f;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+form input[type = submit]::hover{
+    opacity:0.9;
+}
+@media(max-width:992px){
+    .card-container{
+        grid-template-columns: 100%;
+    }
+    .card-img{
+        height: 330px;
+    }
+}
