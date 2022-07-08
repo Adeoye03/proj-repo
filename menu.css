@@ -68,14 +68,15 @@ hr{
         left: 90%;
     }
     .header{
-        position: absolute;
+        left: -200px;
+/*         position: absolute;
         top: 0;
         left: -100%;
         width: 200px;
         height: 100vh;
-        z-index: 1000;
+        z-index: 1000; */
     }
-    .active{
+    .header.active{
         right: 0;
     }
 }
